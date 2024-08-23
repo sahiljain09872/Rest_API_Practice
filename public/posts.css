@@ -1,0 +1,14 @@
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsl(160, 100%, 75%);
+    justify-content: center;
+}
+
+.post{
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 20px;
+}

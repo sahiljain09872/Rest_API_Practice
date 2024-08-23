@@ -1,0 +1,9 @@
+<%-include("includes/head.ejs" ,{title:"New Post"}) %>
+<body>
+    <form action="/posts/<%= id %>" method="post">
+        <input type="text" placeholder="enter your username" name="username"> <br>
+        <textarea name="content">enter the content</textarea> <br>
+        <button type="submit">Create</button>
+    </form>
+</body>
+</html>
